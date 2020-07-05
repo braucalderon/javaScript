@@ -12,5 +12,13 @@
 <li>The double rolled point does not add the total points, it only adds the last rolled of points to the score.</li>
 </ul>
 
-# Play the Game
+## Play the Game
 <li><a href="https://game-1.vercel.app/" target="_blank"> Play the Game Here</a></li>
+
+
+
+![](game1.gif)
+---
+![](game2.gif)
+---
+![](game3.gif)
