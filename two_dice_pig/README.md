@@ -14,8 +14,8 @@
 
 
 
-# Play the Game
-<h1><li><a href="https://game-1.vercel.app/" target="_blank"> Play the Game Here</a></li></h1>
+## Play the Game
+<h2><li><a href="https://game-1.vercel.app/" target="_blank"> Play the Game Here</a></li></h2>
 
 
 
