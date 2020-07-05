@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 850px)" href="mobile.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper clearfix">
+        <div class="player-0-panel active">
+            <div class="win_0" id="win0"></div>
+            <div class="player-name" id="name_0">Player 1</div>
+            <div class="player-score" id="score_0"></div>
+            <div class="player-current-box" id="player_0">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current_0"></div>
+            </div>
+        </div>
+        
+        <div class="player-1-panel">
+            <div class="win_1" id="win1"></div>
+            <div class="player-name" id="name_1">Player 2</div>
+            <div class="player-score" id="score_1"></div>
+            <div class="player-current-box" id="player_1">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current_1"></div>
+            </div>
+        </div>
+
+        
+        
+        
+        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+        <button class="btn-hold" id="btnHold"><i class="ion-ios-download-outline"></i>Hold</button>
+        
+        <input type="text" placeholder="enter score" class="final-score" id="finalScore">
+        <button class="btn-setScore"><i class="ion-setScore"></i>Set Score</button>
+        <button class="btn-gameRules"><i class="ion-gameRules"></i>Game Rules</button>
+        
+        <img src="dice-2.png" alt="Dice" class="dice_1" id="dice-1">
+        <img src="dice-3.png" alt="Dice" class="dice_2" id="dice-2">
+        <!-- <img src="dice-5.png" alt="Dice" class="dice" id="dice-2"> -->
+    </div>
+    
+</body>
+
+<script src="app.js"></script>
+</html>
