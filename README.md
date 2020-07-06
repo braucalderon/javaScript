@@ -7,5 +7,4 @@
 <li>Complex features like function constructors, prototype inheritance, first-class functions, closures.</li>
 <li>JavaScript ES6</li>
 <li>Asynchronous: event loop, promises, async/await, AJAX calls and APIs.</li>
-
 </ul>
