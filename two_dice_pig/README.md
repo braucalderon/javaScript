@@ -18,7 +18,6 @@
 <h2><li><a href="https://game-1.vercel.app/" target="_blank"> Play the Game Here</a></li></h2>
 
 
-
 ![](game1.gif)
 ---
 ![](game2.gif)
