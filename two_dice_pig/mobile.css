@@ -41,8 +41,9 @@
     text-transform: uppercase;
 }
 .final-score:focus { outline: none; }
+.btn-setScore { top: 495px}
+.btn-gameRules { top: 590px}
 
-.btn-setScore { top: 595px}
 .winner .player-name { font-weight: 200; color: #EB4D4D; }
 
 .player-score {
