@@ -12,7 +12,13 @@
 <li>The double rolled point does not add the total points, it only adds the last rolled of points to the score.</li>
 </ul>
 
-
+## Features added to the game
+<ul>
+<li>Disabled the hold and setScore buttons while the user is playing</li>
+<li>The user do not need to press the hold button every time. The program will automatically make to the next player's turn.</li>
+<li>A counting of each player wins will be added to the UI after the first win.</li>
+<li>Responsive website</li>
+</ul>
 
 ## Play the Game
 <h2><li><a href="https://game-1.vercel.app/" target="_blank"> Play the Game Here</a></li></h2>
