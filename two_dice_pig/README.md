@@ -14,10 +14,10 @@
 
 ## Features added to the game
 <ul>
-<li>Disabled the hold and setScore buttons while the user is playing</li>
-<li>The user do not need to press the hold button every time. The program will automatically make to the next player's turn.</li>
+<li>Disabled the hold and setScore buttons while the user is playing.</li>
+<li>The user do not need to press the hold button every time. The program will automatically make the next player's turn.</li>
 <li>A counting of each player wins will be added to the UI after the first win.</li>
-<li>Responsive website</li>
+<li>Responsive website.</li>
 </ul>
 
 ## Play the Game
