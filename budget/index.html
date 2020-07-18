@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 720px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 415px)" href="mobile1.css">
+    <title>Document/Braulio</title>
+</head>
+<body>
+    <!-- Section: budget result -->
+    <section id="container_result" class="result">
+        <div class="result_content_0">
+            <div class="month"></div>
+            <h1 class="header_budget">Initial Budget</h1>
+            <div class="total" id="total_budget"></div>
+        </div>
+        <div class="result_content_1">
+            <div class="income">
+                <div class="title_income">Actual Budget</div>
+                <div class="total_income"></div>
+            </div>
+            <div class="expenses">
+                <div class="title_expenses">Expenses</div>
+                <div class="total_expenses"></div>
+                <button class="btn_percentage" disabled><i class="btn_style"></i> </button>
+            </div>      
+        </div>
+    </section>
+
+    <!-- Section: description -->
+    <section id="container_description">
+        <select class="add_type">
+            <option class="inc_green" value="inc">+</option>
+            <option class="exp_red" value="exp">-</option>
+        </select>
+        <div class="add_description">
+            <input type="text" placeholder="Add description" class="input_description" id="description">
+            <input type="number" placeholder="value" class="input_value" id="value">
+        </div>
+        <div class="add_btn">
+            <button class="add_btn">Submit</button>
+        </div>
+    </section>
+
+    <!-- Section: expenses and income -->
+    <section id="container_expenses">
+        <div class="result_0">
+            <div class="income_0" id="result_income"><h1>Income</h1></div>
+            <div class="delete">
+                <!-- <div class="income_list" id="inc-0">
+                <div class="item_description">Test</div>
+                <div class="item_value">+ 2300</div>
+                <div class="item_delete">
+                    <button class="item_delete_btn"><i class="btn_style"></i></button>
+                </div>
+            </div> -->
+            </div>
+            
+            
+        </div>
+        <div class="result_1">
+            <div class="expenses_1" id="result_expenses"><h1>Expenses</h1></div>
+            <div class="delete">
+                <!-- <div class="expenses_list" id="exp-0">
+                <div class="item_description">shopping</div>
+                <div class="item_value">+ 2300</div>
+                <div class="item_delete">
+                    <button class="item_delete_btn_exp"> <i class="btn_style"></i> </button>
+                </div> -->
+            </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+</body>
+
+<script src="budget.js"></script>
+</html>

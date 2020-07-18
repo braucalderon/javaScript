@@ -1,0 +1,39 @@
+/* ---------------------------- */
+/* Braulio */
+/* ---------------------------- */
+#container_result {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 4rem;
+    font-family: sans-serif;
+    font-style: italic;
+    
+    /* text-shadow: 5px 3px 5px; */
+}
+
+.title_income, .title_expenses{
+    font-size: 15px;
+}
+
+.income_list, .expenses_list {
+    
+    width: 30vh;
+}
+.result_content_0{
+    opacity: 0.8;
+
+}
+
+.income, .expenses{
+   
+    margin: 10px;
+   
+}

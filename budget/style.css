@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---------------------------- */
+/* Utility classes */
+/* ---------------------------- */
+
+select {
+    border-width: 2px;
+    color: green;
+    outline: none;
+    border-color: green;
+}
+
+/* use for change type in budget.js */
+.red_focus {
+    outline: none;
+    color: red;
+    border-color: red;
+    border-width: 1px;
+}
+
+button {
+    border-radius: 0.5rem;
+    padding: 12px 15px;
+    margin-left: 5px;
+}
+
+h1{
+    text-transform: uppercase;
+    line-height: 4rem;
+    font-family: sans-serif;
+    font-style: italic;
+    /* text-shadow: 5px 3px 5px; */
+}
+
+/* ---------------------------- */
+/* budget result  */
+/* ---------------------------- */
+#container_result {
+    background: url('./img/bills_finance.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.result_content_0{
+    text-align: center;
+    background-color: rgb(235, 225, 225);
+    opacity: 0.8;
+    border-radius: 10px;
+    border-style: inset;
+    box-shadow: 15px 10px rgb(68, 67, 67);
+    
+}
+
+.header_budget{
+    color: rgb(64, 69, 73);
+    padding: 2px 10px;
+}
+
+.total {
+    color: rgb(64, 69, 73);
+    font-size: 25px;
+    font-style: italic;
+}
+
+.total, .header_budget{
+    margin: 10px;
+}
+
+.income {
+    color: green;
+    opacity: .9;
+    background-color: rgb(235, 225, 225);
+    border-style: inset;
+    border-radius: .5rem;
+    border-color: rgb(235, 225, 225);
+    box-shadow: 5px 5px  rgb(49, 119, 46);
+    text-transform: uppercase;
+   
+}
+
+.expenses {
+    color: red;
+    opacity: .9;
+    border-radius: .5rem;
+    background-color: rgb(235, 225, 225);
+    border-style: inset;
+    border-color: rgb(235, 225, 225);
+    box-shadow: 5px 5px rgb(160, 26, 26);
+    text-transform: uppercase;
+ 
+}
+.income, .expenses{
+    display: flex;
+    margin: 15px;
+   
+    
+}
+.title_expenses, .title_income, 
+.total_income, .total_expenses {
+    padding: 10px 60px;
+    
+}
+.total_income, .total_expenses{
+    font-size: 19px;
+}
+
+.month {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: .5rem;
+}
+
+/* ---------------------------- */
+/* description */
+/* ---------------------------- */
+#container_description {
+    background-color: rgb(99, 107, 103);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.add_type {
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+
+
+/* ---------------------------- */
+/* expenses and income */
+/* ---------------------------- */
+#container_expenses{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.input_description, .input_value {
+    padding: 5px;
+}
+
+.add_btn{
+    color: black;
+    padding: 6px 4px;
+}
+
+
+
+.expenses_list {
+    display: flex;
+    background-color: rgb(219, 200, 200);
+    width: 55vh;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -5px -5px 10px rgb(160, 26, 26);
+    padding: 6px 0px;
+    
+}
+
+.income_list {
+    display: flex;
+    background-color: rgb(225, 235, 227);
+    width: 55vh;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -5px -5px 10px green;
+    padding: 5px 0px;
+}
+
+
+.income_0 {
+    color: green;
+    
+}
+
+.expenses_1{
+    color: rgb(202, 48, 48);
+}
+
+.item_delete_btn{
+    padding: 10px 19px;
+    background-color: rgb(181, 214, 187);
+    border-style: none;
+}
+
+.item_description{
+    text-transform: capitalize;
+    margin-left: .5rem;
+}
+
+.item_delete_btn:hover{
+    background-color: rgb(204, 76, 76);
+    padding: 9px 9px;
+    border-radius: 2rem;
+    border-style: hidden;
+    transform: translateX(-10px);
+
+}
+.item_delete_btn_exp:hover{
+    background-color: rgb(204, 76, 76);
+    padding: 9px 9px;
+    border-radius: 2rem;
+    border-style: hidden;
+    font-size: 0;
+    transform: translateX(-10px);   
+}
+
+
+.item_delete_btn_exp {
+    background-color: rgb(204, 158, 158);
+    padding: 3px 5px;
+    font-size: 12px;
+    border-style: none;
+}
+
+
+.btn_percentage{
+    color: red;
+    padding: 3px 20px;
+}
+
+.item_delete_btn:focus, .add_btn:focus{
+    outline: none;
+}
+/* ---------------------------- */
+/* Braulio */
+/* ---------------------------- */
+
+
+
+
+
+
+
+
