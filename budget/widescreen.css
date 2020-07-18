@@ -1,0 +1,24 @@
+/* budget result  */
+
+#container_result {
+    background: url('./img/bill_finance.jpg') no-repeat center center/cover;
+    
+}
+.result_content_0{
+    opacity: 0.6;
+
+}
+
+.income {
+    opacity: .8;
+    
+}
+
+.expenses {
+    opacity: .8;
+   
+ 
+}
+.expenses_list, .income_list{
+    width: 40vh;
+}
