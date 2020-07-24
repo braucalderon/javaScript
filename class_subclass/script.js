@@ -27,9 +27,9 @@
     // ---------------------------------
 
     class Streets extends Parks {
-        constructor(name, age_park) {
+        constructor(name, cur_year) {
             super(name);
-            this.age_park = age_park;
+            this.cur_year = cur_year;
             this.streets = 0;
             this.arr = [];
 
@@ -66,7 +66,7 @@
             console.log('-------------');
             park_trees.forEach((value, key) => {
                 if (value === park_name) {
-                    console.log(`${value} has a tree density of ${key / area} per square mile, with ${this.age_park - key} years old`);
+                    console.log(`${value} has a tree density of ${key / area} per square mile, with ${this.cur_year - key} years old`);
                     key > 1000 ? console.log(`${value} has ${key} trees.`) : null;
                 }
             });
@@ -114,7 +114,7 @@
                 if (value === street_name) {
                     console.log(`${value} street that was built in ${key}`);
                     // subtract year with current year to push it into the array
-                    this.arr.push(new Date().getFullYear() - key);
+                    this.arr.push(this.cur_year - key);
                 }
             });
 
@@ -142,11 +142,13 @@
     new Streets('Green Park', year),
     new Streets('Dog Park', year)];
 
+    // const park1 = new Streets('Morning Park', 23, 23, 2);
+    // park1.parkInfo(park1.park_name());
 
     function report(p) {
         p.forEach(p => p.parkInfo(p.park_name()));
+
     }
-    
     report(park1);
 
 }
