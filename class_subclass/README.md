@@ -5,7 +5,7 @@
 <li>Maps</li>
 <li>Inheritance</li>
 <li>Arrow Functions</li>
-<li>Data Structure</li>
+
 </ul>
 
 
